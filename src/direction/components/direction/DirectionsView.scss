@@ -1,0 +1,53 @@
+
+.directions-form {
+    padding: 16px;
+    display: inline;
+    align-items: flex-end;
+}
+
+.form-input {
+    margin-top: 16px;
+    margin-right: 16px;
+
+    > label {
+        margin-bottom: 12px;
+        font-size: 12px;
+        display: block;
+    }
+
+    > input {
+        display:inline;
+        padding: 8px;
+        width: 200px;
+    }
+}
+
+.form-input.second{
+  float: right;
+}
+
+.form-group{
+    display: flex;
+}
+.form-group
+.get-route-btn > button {
+    margin-top: 16px;
+    margin-right: 20px;
+    padding: 10px;
+    min-width: 100px;
+    border: #222222;
+    background: green;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.form-group
+.get-reset-btn > button {
+    margin-top: 16px;
+    padding: 10px;
+    min-width: 100px;
+    border: #222222;
+    background: orange;
+    color: #ffffff;
+    cursor: pointer;
+}
