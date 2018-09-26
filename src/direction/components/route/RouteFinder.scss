@@ -1,0 +1,22 @@
+.route-info {
+    padding: 16px;
+    display: flex;
+}
+
+.route-info-item {
+    display: flex;
+    font-size: 1em;
+
+    &:not(:last-child) {
+        margin-right: 16px;
+    }
+}
+
+.route-info-item-label {
+    font-weight: 500;
+}
+
+.route-info-item-value {
+    margin-left: 8px;
+    font-weight: bold;
+}
